@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <fdroid>
-	<repo icon="antox-icon.png" name="Antox dev v0.25 repo" pubkey="" timestamp="1484757627" url="https://zoff99.github.io/fdroid/repo/" version="1">
+	<repo icon="antox-icon.png" name="Antox dev v0.25 repo" timestamp="1484757627" url="https://zoff99.github.io/fdroid/repo/" version="1">
 		<description>Antox dev v0.25 repo</description>
 	</repo>
 	<application id="chat.tox.antox">
