@@ -3,34 +3,35 @@
 	<repo icon="antox-icon.png" name="Antox dev v0.25 repo"pubkey="" timestamp="1484757627" url="https://zoff99.github.io/fdroid/repo/" version="1">
 		<description>Antox dev v0.25 repo</description>
 	</repo>
-	<application id="com.android.vending">
-		<id>com.android.vending</id>
-		<added>2015-10-04</added>
-		<lastupdated>2016-11-16</lastupdated>
-		<name>FakeStore</name>
-		<summary>microG Store (FakeStore release)</summary>
-		<icon>com.android.vending.16.png</icon>
-		<desc>&lt;p&gt;An empty package that mocks the existence of the Google Play Store to the Play Services client.&lt;/p&gt;</desc>
-		<license>Apache2</license>
+	<application id="chat.tox.antox">
+		<id>chat.tox.antox</id>
+		<added>2017-01-01</added>
+		<lastupdated>2017-01-01</lastupdated>
+		<name>Antox dev v0.25</name>
+		<summary>Antox</summary>
+		<icon>antox-icon.png</icon>
+		<desc>Antox Development repository</desc>
+		<license>GPL</license>
 		<categories>System</categories>
 		<category>System</category>
-		<web>https://microg.org/</web>
-		<source>https://github.com/microg/android_packages_apps_FakeStore</source>
-		<tracker>https://github.com/microg/android_packages_apps_FakeStore/issues</tracker>
-		<changelog>https://github.com/microg/android_packages_apps_FakeStore/releases</changelog>
-		<marketversion></marketversion>
-		<marketvercode>16</marketvercode>
+		<web>https://github.com/zoff99/Antox/tree/zoff99/Antox_v0.25</web>
+		<source>https://github.com/zoff99/Antox/tree/zoff99/Antox_v0.25</source>
+		<tracker>https://github.com/zoff99/Antox/issues</tracker>
+		<marketversion>1</marketversion>
+		<marketvercode>1</marketvercode>
 		<package>
-			<version>0.0.2</version>
-			<versioncode>16</versioncode>
-			<apkname>com.android.vending-16.apk</apkname>
+			<version>0.25.0</version>
+			<versioncode>25000</versioncode>
+			<apkname>antox.apk</apkname>
 			<hash type="sha256">7fbf38e5a6f7958442547971eb0fcdcbe6429ff1db8141e048516eaa65e48769</hash>
 			<sig>ca625df9dd76b6002de9c94d216cf09b</sig>
 			<size>13133</size>
-			<sdkver>9</sdkver>
-			<targetSdkVersion>24</targetSdkVersion>
-			<added>2016-11-16</added>
-			<permissions>FAKE_PACKAGE_SIGNATURE</permissions>
+			<sdkver>14</sdkver>
+			<targetSdkVersion>25</targetSdkVersion>
+			<added>2017-01-01</added>
+				<permissions>
+					android.permission.INTERNET,android.permission.ACCESS_NETWORK_STATE,android.permission.WRITE_EXTERNAL_STORAGE,android.permission.READ_EXTERNAL_STORAGE,android.permission.VIBRATE,android.permission.RECEIVE_BOOT_COMPLETED,android.permission.CAMERA,android.permission.RECORD_AUDIO,android.permission.WAKE_LOCK,android.permission.MODIFY_AUDIO_SETTINGS
+				</permissions>
 		</package>
 	</application>
 </fdroid>
