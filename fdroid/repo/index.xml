@@ -23,9 +23,9 @@
 			<version>0.25.0</version>
 			<versioncode>25000</versioncode>
 			<apkname>antox.apk</apkname>
-			<hash type="sha256">7fbf38e5a6f7958442547971eb0fcdcbe6429ff1db8141e048516eaa65e48769</hash>
+			<hash type="sha256">222640ee14b11ec90c90ed917177abfd9a2d045de765f97f606b0d6b706652fe</hash>
 			<sig>ca625df9dd76b6002de9c94d216cf09b</sig>
-			<size>13133</size>
+			<size>8113006</size>
 			<sdkver>14</sdkver>
 			<targetSdkVersion>25</targetSdkVersion>
 			<added>2017-01-01</added>
